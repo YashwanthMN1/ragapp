@@ -38,7 +38,8 @@ required
 4. check uvicorn `uvicorn --version`
 
 ## Usage
-IMPORTANT: mention envirorment variables required in a `.env` file
+IMPORTANT: mention envirorment variables required in a `.env` file,
+whatever credentials mentioned in the `.env` file provided will be temporary only meant for assesment purpose and will be disabled after two days
 
 1. Run the app: `uvicorn main:app`
 
