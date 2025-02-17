@@ -1,8 +1,8 @@
-# Your RAGAPP
+# RAGAPP for text documents
 
 ## Description
 
-This is a simple RAG() application developed for jk tech assesment ,which uses 
+This is a simple RAG(Retrieval-augmented generation) application developed for jk tech assesment ,which uses 
 - Pinecone : for storing embedding vectors
 - Openai api : for chat completion
 - AWS : for handling system parameters(for larger application can be replaced by postgres or mongo)
@@ -42,7 +42,7 @@ If pip is not installed, install it using:
 
 ## Features
 
-- Feature 1: add document = add text document using swagger ui of fastapi.
+- Feature 1: add document = add text document using swagger ui of fastapi(only .txt files are supported as of now).
 - Feature 2: ask question = ask question with respect to document uploaded.
 - Feature 3: list document ids =  get list of available document id ,currently we are not storing documetn name.
 - Feature 4: select document = select document id which will be used for asking question.
