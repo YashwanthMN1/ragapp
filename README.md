@@ -25,16 +25,16 @@ If pip is not installed, install it using:
 `python -m ensurepip --default-pip`
 
 
-
+required
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-app.git`
+1. Clone the repository: `git clone https://github.com/YashwanthMN1/ragapp.git`
 2. Run shell script(windows): `sh setup.sh` 
 3. Run shell script(linux):`source setup.sh`
 4. check uvicorn `uvicorn --version`
 
 ## Usage
-0VERY IMPORTANT: mention envirorment variables required in a `.env` file
+IMPORTANT: mention envirorment variables required in a `.env` file
 
 1. Run the app: `uvicorn main:app`
 
