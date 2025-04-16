@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a simple RAG(Retrieval-augmented generation) application developed for jk tech assesment ,which uses 
+This is a simple RAG(Retrieval-augmented generation) application developed ,which uses 
 - Pinecone : for storing embedding vectors
 - Openai api : for chat completion
 - AWS : for handling system parameters(for larger application can be replaced by postgres or mongo)
